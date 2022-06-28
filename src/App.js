@@ -48,7 +48,7 @@ function App() {
       />
       <div className={styles.attribution}>
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>.
-        Coded by <a href="https://github.com/mv805">Matt Villa</a>.
+        Coded by <a href="https://github.com/mv805">Matt Villa</a>. V 1.0.0
       </div>
 
     </div>
