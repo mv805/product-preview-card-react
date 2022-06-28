@@ -21,7 +21,7 @@ const ProductInfo = (props) => {
                     <p className={styles['main-text']}>{`$${props.infoData.originalPrice}`}</p>
                 </div>
                 <button>
-                    <img src="../images/icon-cart.svg" alt='shopping cart'/>
+                    <img src="images/icon-cart.svg" alt='shopping cart'/>
                     Add to Cart
                 </button>
             </div>
