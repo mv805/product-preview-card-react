@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    margin: 10% 0;
+    margin: 1rem 0;
 }
 
 @media (min-width: 770px) {
@@ -14,5 +14,6 @@
         max-width: 800px;
         align-items: center;
         flex-direction:row;
+        margin: 20rem 0;
     }
 }
