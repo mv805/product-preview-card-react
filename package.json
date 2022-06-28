@@ -1,7 +1,7 @@
 {
   "name": "product-preview-card-react",
   "version": "1.0.0",
-  "homepage": "https://mv805.github.io/product-preview-card-react",
+  "homepage": "https://mv805.github.io/product-preview-card-react/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
