@@ -6,11 +6,11 @@ let perfumeImageData = {
 
   images: [
     {
-      url: './images/image-product-mobile-686w480h.jpg',
+      url: 'images/image-product-mobile-686w480h.jpg',
       width: '600w'
     },
     {
-      url: './images/image-product-desktop-600w900h.jpg',
+      url: 'images/image-product-desktop-600w900h.jpg',
       width: '601w'
     },
   ],
@@ -26,7 +26,7 @@ let perfumeImageData = {
     },
   ],
 
-  sourceDefault: './images/image-product-desktop-600w900h.jpg',
+  sourceDefault: 'images/image-product-desktop-600w900h.jpg',
   alt: 'perfume bottle',
 
 };
