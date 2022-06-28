@@ -1,0 +1,17 @@
+.card {
+    width: 90%;
+    height: 700px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+@media (min-width: 770px) {
+    .card {
+        max-height: 600px;
+        max-width: 800px;
+        align-items: center;
+        flex-direction:row;
+    }
+}

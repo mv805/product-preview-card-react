@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+style-guide.md
+public/design/desktop-design.jpg
+public/design/desktop-preview.jpg
+public/design/active-states.jpg
+public/design/mobile-design.jpg
+public/images/test.jpg

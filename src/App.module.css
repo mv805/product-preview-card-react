@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+:root {
+  --background-color: hsl(30, 38%, 92%);
+}
+
+.App {
+  background-color: var(--background-color);
+  padding: 1rem 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App *, .App {
+  box-sizing: border-box;
+
+}
+
+
+

@@ -1,23 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+
+import styles from './App.module.css';
+import ProductCard from './ProductCard';
+
+let perfumeImageData = {
+
+  images: [
+    {
+      url: '../images/image-product-mobile-686w480h.jpg',
+      width: '600w'
+    },
+    {
+      url: '../images/image-product-desktop-600w900h.jpg',
+      width: '601w'
+    },
+  ],
+
+  imageSizes: [
+    {
+      condition: '(max-width: 375px)',
+      width: '375px'
+    },
+    {
+      condition: '',
+      width: '1600px'
+    },
+  ],
+
+  sourceDefault: '../images/image-product-desktop-600w900h.jpg',
+  alt: 'perfume bottle',
+
+};
+
+let perfumeProductData = {
+  category: 'Perfume',
+  title: 'Gabrielle Essence Eau De Parfum',
+  description: 'A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.',
+  originalPrice: 169.99,
+  salePrice: 149.99,
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={ styles.App }>
+      <ProductCard productImageData={perfumeImageData} productInfoData={perfumeProductData}/>
     </div>
   );
 }
