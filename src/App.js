@@ -42,7 +42,15 @@ let perfumeProductData = {
 function App() {
   return (
     <div className={ styles.App }>
-      <ProductCard productImageData={perfumeImageData} productInfoData={perfumeProductData}/>
+      <ProductCard
+        productImageData={ perfumeImageData }
+        productInfoData={ perfumeProductData }
+      />
+      <div className={styles.attribution}>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/mv805">Matt Villa</a>.
+      </div>
+
     </div>
   );
 }
